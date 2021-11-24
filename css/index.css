@@ -1,6 +1,10 @@
 html{
     font-family: 'Nunito', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .topnav {
     background-color: #D5DBDB;
     overflow: hidden;
@@ -36,6 +40,33 @@ html{
 .banner img{
     width: 100%;
     height: 550px;
+}
+.recipes{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.recipe-category{
+  width: 31%;
+  background-color: #fff;
+  margin-left: 1px;
+  margin-right: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  min-height: 350px;
+  color: #A5364B;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.recipe-category img{
+  height: 300px;
+  width: 100%;
+}
+.recipe-category:hover{
+  background-color: #A5364B;
+  color: #fff;
 }
 .float-right{
     float: right;
