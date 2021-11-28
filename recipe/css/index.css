@@ -46,7 +46,7 @@ a{
   text-align: center;
 }
 .recipe-category{
-  width: 31%;
+  max-width: 31%;
   background-color: #fff;
   margin-left: 1px;
   margin-right: 1px;
@@ -74,6 +74,13 @@ section#recipe::after{
   float: left;
   height: 500px;
   background-color: khaki;
+}
+.recipe-introduction {
+  text-align: center;
+  color: #A5364B;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0px;
 }
 .recipe-article{
   width: 60%;
@@ -143,7 +150,9 @@ section {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     max-width: 100%;
-    background-image: url(assets/images/background-cookingclass.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .fcf-form-group {
