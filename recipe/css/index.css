@@ -8,7 +8,6 @@ a{
 .topnav {
     background-color: #D5DBDB;
     overflow: hidden;
-    border-bottom: 2px dotted #A5364B;
   }
  .topnav a {
     float: left;
@@ -31,6 +30,7 @@ a{
  .topnav .icon {
     display: none;
   }
+  .menu{border: 2px dotted #A5364B;}
 .logo{
     font-size: 30px;
     color: #A5364B;
@@ -104,7 +104,7 @@ section#recipe::after{
   float: right;
 }
 .clear-float{
-  float: unset;
+  clear: both;
 }
 section {
   margin-bottom: 20px;
@@ -280,7 +280,6 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
