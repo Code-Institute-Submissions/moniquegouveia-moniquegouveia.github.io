@@ -8,26 +8,56 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" >
-    <title>Cooking classes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+        </style>
+    <title>Set Up Chef</title>
 </head>
-<body>
+<body>  
     <header class="topnav" id="myTopnav">
         <div class="float-left">
             <span class="logo">Set Up Chef</span>
         </div>
         <div class="float-right">
-            <a href="index.html" >Home</a>
+            <a href="index.html">Home</a>
             <a href="recipes.html">Recipes</a>
             <a href="cookingclasses.html" class="active">Cooking Classes</a>
             <a href="about-us.html">About Us</a>
         </div>
     </header>
-    <form action="" method="post">
-        <h1>Not an online learner? Book your cooking classes and learn how to cook as a professional:</h1>
-            <label for="name">Name</label>
-<input type="text" id="name" name="name" required minlength="2" maxlength="50" size="10">
-        </p>
+
+<link href="contact-form.css" rel="stylesheet">
+<div class="fcf-body">
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Not an online learner? You can register your interest to our online classes here.</h3>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
     </form>
-    </body>
-    </html>
+    </div>
+</div>
+</body>
+</html>
