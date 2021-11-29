@@ -117,6 +117,7 @@ section {
   margin-bottom: 20px;
 }
 #catchphrase {
+  float: center;
   display: block;
   color: #A5364B;
   text-align: center;
@@ -143,10 +144,10 @@ section {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: #A5364B;
     padding: 30px;
     padding-bottom: 10px;
-    border: 1px solid #A5364B;
+    border: 1px solid #ced4da;
     border-radius: 0.25rem;
     max-width: 100%;
     background-repeat: no-repeat;
@@ -189,6 +190,22 @@ label.fcf-label {
     margin-bottom: 0.5rem;
 }
 
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+.fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
 .fcf-btn {
     display: inline-block;
     font-weight: 400;
@@ -221,20 +238,20 @@ label.fcf-label {
 
 .fcf-btn-primary {
     color: #fff;
-    background-color: #fff;
+    background-color: #A5364B;
     border-color: #A5364B;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: #fff;
+    background-color: #A5364B;
     border-color: #A5364B;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: #fff;
-    border-color: #A5364B;
+    background-color: #A5364B;
+    border-color: #fff;
 }
 
 .fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
