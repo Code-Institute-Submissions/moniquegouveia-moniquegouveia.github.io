@@ -237,14 +237,14 @@ label.fcf-label {
 
 .fcf-btn-primary {
     color: #fff;
-    background-color: #A5364B;
+    background-color: #fff;
     border-color: #A5364B;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: #A5364B;
-    border-color: #fff;
+    background-color: #fff;
+    border-color: #A5364B;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
