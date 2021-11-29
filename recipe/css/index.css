@@ -144,7 +144,7 @@ section {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: #A5364B;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
@@ -181,7 +181,7 @@ section {
 }
 
 textarea.fcf-form-control {
-    font-family: -apple-system, Arial, sans-serif;
+    font-family: 'Outfit', Arial, sans-serif;
     height: auto;
 }
 
@@ -245,13 +245,13 @@ label.fcf-label {
 .fcf-btn-primary:hover {
     color: #fff;
     background-color: #A5364B;
-    border-color: #A5364B;
+    border-color: #fff;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
     background-color: #A5364B;
-    border-color: #A5364B;
+    border-color: #fff;
 }
 
 .fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
