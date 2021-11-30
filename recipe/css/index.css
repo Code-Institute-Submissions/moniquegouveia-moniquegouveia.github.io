@@ -326,9 +326,9 @@ footer{
     flex-direction: row;
   }
   .recipe-img {
-    width: 25%;
+    width: 40%;
   }
   .recipes {
-    width: 75%;
+    width: 60%;
   }
 }
