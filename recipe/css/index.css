@@ -301,7 +301,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 /* About page */
 #about-us {
-  display: none;
+  display: block;
   color: #A5364B;
   text-align: left;
   padding: 16px 16px;
