@@ -107,7 +107,7 @@ section#recipe::after{
 }
 .recipe-img {
   height: auto;
-  width: 100%;
+  width: 60%;
   display: flex;
 }
 .recipe-introduction {
