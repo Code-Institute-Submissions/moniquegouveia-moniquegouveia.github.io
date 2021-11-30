@@ -120,7 +120,7 @@ section#recipe::after{
 .recipe-article{
   width: 60%;
   float: right;
-  height: 500px;
+  height: auto;
   background-color: #F8E3E7;
   font-size: 13px;
   text-align: justify;
