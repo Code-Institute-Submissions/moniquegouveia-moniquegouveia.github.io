@@ -321,8 +321,11 @@ footer{
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 500px) {
-  .flex-container {
-    flex-direction: column;
+@media  only screen and (min-width: 500px) {
+  .container {
+    flex-direction: row;
+  }
+  .recipe-img {
+    max-width: 40%;
   }
 }
