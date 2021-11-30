@@ -1,10 +1,18 @@
-html{
+html {
     font-family: 'Outfit', sans-serif;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
+/* Container */ 
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* Navigation Bar */ 
 .topnav {
     background-color: #D5DBDB;
     overflow: hidden;
@@ -60,8 +68,9 @@ a{
   padding-bottom: 5px;
 }
 .recipe-category img{
-  height: 300px;
+  height: auto;
   width: 100%;
+  display: flex;
 }
 section#recipe{
   width: 100%;
@@ -70,10 +79,9 @@ section#recipe::after{
   clear: both;
 }
 .recipe-img {
-  width: 40%;
-  float: left;
-  height: 500px;
-  background-color: khaki;
+  height: auto;
+  width: 100%;
+  display: flex;
 }
 .recipe-introduction {
   text-align: center;
