@@ -18,7 +18,7 @@ a {
 /* Container */ 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
@@ -107,7 +107,7 @@ section#recipe::after{
 }
 .recipe-img {
   height: auto;
-  width: 50%;
+  width: 100%;
   display: flex;
 }
 .recipe-introduction {
@@ -321,7 +321,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   font-size: 21px;
 }
 
-footer{
+footer {
   text-align: center;
   font-size: 18px;
   background-color: #D5DBDB;
