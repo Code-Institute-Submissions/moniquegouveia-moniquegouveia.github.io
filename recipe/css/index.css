@@ -1,8 +1,8 @@
+/* General */
 html, body {
     font-family: 'Outfit', sans-serif;
     height: 100%;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 /* Container */ 
 .container {
   display: flex;
@@ -50,15 +51,29 @@ a {
     display: none;
   }
   .menu{border: 2px dotted #A5364B;}
+  /* Logo */
 .logo{
     font-size: 30px;
     color: #A5364B;
     font-weight: bold;
     vertical-align: middle;
 }
+ /*  Banner */
 .banner img{
     width: 100%;
 }
+/* Catchphrase */
+#catchphrase {
+  float: center;
+  display: block;
+  color: #A5364B;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+ /* First section */
 .recipes { 
   width: 100%;
   align-items: center;
@@ -83,6 +98,7 @@ a {
   width: 100%;
   display: flex;
 }
+ /* Recipe page */
 section#recipe{
   width: 100%;
 }
@@ -135,16 +151,7 @@ section#recipe::after{
 section {
   margin-bottom: 20px;
 }
-#catchphrase {
-  float: center;
-  display: block;
-  color: #A5364B;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
-}
+
 .line-break {
   clear: both;
   height:20px;
@@ -155,7 +162,7 @@ section {
 .how-to-do {
   margin-left: 5px;
 }
-
+/* Form */
 .fcf-body {
     margin: 0;
     font-size: 1rem;
@@ -292,15 +299,17 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+/* About page */
 #about-us {
-  display: block;
+  display: none;
   color: #A5364B;
-  text-align: center;
+  text-align: left;
   padding: 16px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
+/* Footer */
 .footer-icon {
   margin: 5px;
   font-size: 21px;
@@ -316,6 +325,7 @@ footer{
   vertical-align: middle;
   flex-shrink: 0;
 }
+/* media queries */
 
 @media screen and (max-width: 600px) {
   .topnav a.icon {
@@ -337,16 +347,15 @@ footer{
   }
 }
 
-
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media  only screen and (min-width: 800px) {
+@media  only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
   }
   .recipe-img {
-    width: 40%;
+    width: 50%;
   }
   .recipes {
-    width: 60%;
+    width: 50%;
   }
 }
