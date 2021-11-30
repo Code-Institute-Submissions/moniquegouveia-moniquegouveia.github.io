@@ -80,7 +80,7 @@ section#recipe::after{
 }
 .recipe-img {
   height: auto;
-  width: 100%;
+  width: 50%;
   display: flex;
 }
 .recipe-introduction {
